@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  	<PreferenceCategory 
+        android:title="@string/general_pref_category">
+  		<ListPreference
+        	android:key="pref_release_date"
+        	android:title="@string/pref_release_date"
+        	android:dialogTitle="@string/pref_release_date"
+        	android:entries="@array/pref_release_dates"
+        	android:entryValues="@array/pref_release_dates_values"
+        	android:defaultValue="@string/release_date_default" />
+		<ListPreference
+        	android:key="pref_update_rate"
+        	android:title="@string/pref_update_rate"
+        	android:dialogTitle="@string/pref_update_rate"
+        	android:entries="@array/pref_update_rates"
+        	android:entryValues="@array/pref_update_rates_values"
+        	android:defaultValue="@string/update_rate_default" />
+  		<ListPreference
+        	android:key="pref_background_image"
+        	android:title="@string/pref_background_image"
+        	android:dialogTitle="@string/pref_background_image"
+        	android:entries="@array/pref_background_images"
+        	android:entryValues="@array/pref_background_images_values"
+        	android:defaultValue="@string/background_image_default" />
+  		<CheckBoxPreference      
+        	android:key="pref_scrolling_image"
+        	android:title="Scrolling Background"
+        	android:summary="Swipe to scroll the image"
+        	android:defaultValue="true" />
+  	 </PreferenceCategory>
+  	 <PreferenceCategory 
+        android:title="@string/text_pref_category">
+  		<ListPreference
+       		android:key="pref_font_size"
+        	android:title="@string/pref_font_size"
+        	android:dialogTitle="@string/pref_font_size"
+        	android:entries="@array/pref_font_sizes"
+        	android:entryValues="@array/pref_font_sizes_values"
+        	android:defaultValue="@string/font_size_default"
+  	    	android:dependency="pref_variable_text" />
+  		<CheckBoxPreference
+  	    	android:disableDependentsState="true"	      
+        	android:key="pref_variable_text"
+        	android:title="Variable Text"
+        	android:summary="Dynamically change text size"
+        	android:defaultValue="false" />
+  		<ListPreference
+        	android:key="pref_font_style"
+        	android:title="@string/pref_font_style"
+        	android:dialogTitle="@string/pref_font_style"
+        	android:entries="@array/pref_font_styles"
+        	android:entryValues="@array/pref_font_styles_values"
+        	android:defaultValue="@string/font_style_default" />
+  		<com.a1pha.type.bf4.countdown.lwp.ColorPickerPreference  
+  	    	android:key="pref_color"
+  	    	android:title="@string/pref_font_color" 
+  	    	android:defaultValue="@integer/GREEN"
+  	    	android:dependency="pref_variable_color" />
+  		<CheckBoxPreference
+  	    	android:disableDependentsState="true"	      
+        	android:key="pref_variable_color"
+        	android:title="Variable Color"
+        	android:summary="Dynamically change text color"
+        	android:defaultValue="false" />
+  	<!-- <ListPreference
+        android:key="pref_font_color"
+        android:title="@string/pref_font_color"
+        android:dialogTitle="@string/pref_font_color"
+        android:entries="@array/pref_font_colors"
+        android:entryValues="@array/pref_font_colors_values"
+        android:defaultValue="@string/font_color_default" /> -->
+  		<PreferenceScreen
+        	android:title="Text Style" >
+  	    	<CheckBoxPreference
+        		android:key="pref_bold"
+        		android:title="Bold"
+        		android:summary="Bold text"
+        		android:defaultValue="false" />
+  	    	<CheckBoxPreference
+        		android:key="pref_glow"
+        		android:title="Glow"
+        		android:summary="Glowing text"
+        		android:defaultValue="true" />
+  	    	<CheckBoxPreference
+        		android:key="pref_skew"
+        		android:title="Skew"
+        		android:summary="Skewed Text"
+        		android:defaultValue="false" />
+  	    	<CheckBoxPreference
+        		android:key="pref_stroke"
+        		android:title="Stroke"
+        		android:summary="Stroked text"
+        		android:defaultValue="false" />
+  	    	<CheckBoxPreference
+        		android:key="pref_underline"
+        		android:title="Underline"
+        		android:summary="Underlined text"
+        		android:defaultValue="false" />
+  		</PreferenceScreen>
+  	</PreferenceCategory>
+  	<PreferenceCategory 
+        android:title="@string/position_pref_category">
+  		<ListPreference
+       		android:key="pref_text_vertical_position"
+        	android:title="@string/pref_text_vertical_position"
+        	android:dialogTitle="@string/pref_text_vertical_position"
+        	android:entries="@array/pref_text_vertical_positions"
+        	android:entryValues="@array/pref_text_vertical_positions_values"
+        	android:defaultValue="@string/vertical_position_default" />
+  		<ListPreference
+        	android:key="pref_text_horizontal_position"
+        	android:title="@string/pref_text_horizontal_position"
+        	android:dialogTitle="@string/pref_text_horizontal_position"
+        	android:entries="@array/pref_text_horizontal_positions"
+        	android:entryValues="@array/pref_text_horizontal_positions_values"
+        	android:defaultValue="@string/horizontal_position_default" />  
+	</PreferenceCategory>
+</PreferenceScreen> 

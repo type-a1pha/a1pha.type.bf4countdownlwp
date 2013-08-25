@@ -1,0 +1,153 @@
+<resources>
+    
+    <string-array name="pref_release_dates">
+        <item >October 29, 2013</item>
+        <item >October 31, 2013</item>
+        <item >November 1, 2013</item>
+        <item >November 6, 2013</item>
+    </string-array>
+    <!-- Milliseconds since the epoch date -->
+    <string-array name="pref_release_dates_values">
+        <item >1383001200000</item>
+        <item >1383174000000</item>
+        <item >1383260400000</item>
+        <item >1383692400000</item>
+    </string-array>
+    <string-array name="pref_background_images">
+        <item >Commander 1</item>
+        <item >Wallpaper Logo</item>
+        <item >Soldier</item>
+        <item >Tunnel</item>
+        <item >Jets</item>
+        <item >Blue Soldier</item>
+        <item >Commander 2</item>
+        <item >Forest</item>
+        <item >Helicopter</item>
+        <item >Commander 3</item>
+        <item >Wallpaper</item>
+    </string-array>
+    <string-array name="pref_background_images_values">
+        <item >image_0.jpg</item>
+        <item >image_1.jpg</item>
+        <item >image_2.jpg</item>
+        <item >image_3.jpg</item>
+        <item >image_4.jpg</item>
+        <item >image_5.jpg</item>
+        <item >image_6.jpg</item>
+        <item >image_7.jpg</item>
+        <item >image_8.jpg</item>
+        <item >image_9.jpg</item>
+        <item >image_10.jpg</item>
+    </string-array>
+    <string-array name="pref_update_rates">
+        <item >1 second</item>
+        <item >5 seconds</item>
+        <item >10 seconds</item>
+        <item >30 seconds</item>
+        <item >60 seconds</item>
+    </string-array>
+    <string-array name="pref_update_rates_values">
+        <item >1</item>
+        <item >5</item>
+        <item >10</item>
+        <item >30</item>
+        <item >60</item>
+    </string-array>
+    <string-array name="pref_font_sizes">
+        <item >Small Size</item>
+        <item >Medium Size</item>
+        <item >Large Size</item>
+    </string-array>
+    <string-array name="pref_font_sizes_values">
+        <item >small</item>
+        <item >medium</item>
+        <item >large</item>
+    </string-array>
+    <string-array name="pref_font_styles">
+        <item >Default</item>
+        <item >Audio</item>
+        <item >Breaking</item>
+        <item >Cella</item>
+        <item >Digital</item>
+        <item >Flicker</item>
+        <item >Liquid</item>
+        <item >Plasmatic</item>
+        <item >Program</item>
+        <item >Speculum</item>
+        <item >Squared</item>
+    </string-array>
+    <string-array name="pref_font_styles_values">
+        <item >Default</item>
+        <item >Audio.ttf</item>
+        <item >Breaking.ttf</item>
+        <item >Cella.ttf</item>
+        <item >Digital.ttf</item>
+        <item >Flicker.ttf</item>
+        <item >Liquid.ttf</item>
+        <item >Plasmatic.ttf</item>
+        <item >Program.ttf</item>
+        <item >Speculum.ttf</item>
+        <item >Squared.ttf</item>
+    </string-array>
+    <string-array name="pref_text_vertical_positions">
+        <item >Upper</item>
+        <item >Center</item>
+        <item >Lower</item>
+    </string-array>
+    <string-array name="pref_text_vertical_positions_values">
+        <item >upper</item>
+        <item >center</item>
+        <item >lower</item>
+    </string-array>
+    <string-array name="pref_text_horizontal_positions">
+        <item >Left</item>
+        <item >Center</item>
+        <item >Right</item>
+    </string-array>
+    <string-array name="pref_text_horizontal_positions_values">
+        <item >left</item>
+        <item >center</item>
+        <item >right</item>
+    </string-array>
+    <string-array name="pref_font_colors">
+        <item >White</item>
+        <item >Black</item>
+        <item >Red</item>
+        <item >Green</item>
+        <item >Blue</item>
+        <item >Yellow</item>
+        <item >Purple</item>
+        <item >Pink</item>
+        <item >Gray</item>
+        <item >Orange</item>
+        <item >Cyan</item>
+    </string-array>
+    <string-array name="pref_font_colors_values">
+        <item >#FFFFFF</item>
+        <item >#000000</item>
+        <item >#FF0000</item>
+        <item >#00FF00</item>
+        <item >#0000FF</item>
+        <item >#FFFF00</item>
+        <item >#7F00FF</item>
+        <item >#FF00FF</item>
+        <item >#606060</item>
+        <item >#FF8000</item>
+        <item >#80FFFF</item>
+    </string-array>
+    <string-array name="pref_text_styles">
+        <item >Fill</item>
+        <item >Stroke</item>
+        <item >Bold</item>
+        <item >Skew</item>
+        <item >Glow</item>
+    </string-array>
+    <string-array name="pref_text_styles_values">
+        <item >fill</item>
+        <item >stroke</item>
+        <item >bold</item>
+        <item >skew</item>
+        <item >glow</item>
+    </string-array>
+
+</resources>

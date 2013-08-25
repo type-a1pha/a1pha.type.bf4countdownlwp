@@ -1,0 +1,6 @@
+@string/description
+@xml/my_wallpaper_preferences
+default preferences values
+@array
+ResourceMapping
+Remember to change the VERSION between different releases

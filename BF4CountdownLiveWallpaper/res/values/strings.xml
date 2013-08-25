@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">BF4 Countdown LWP HD</string>
+    <string name="description">Countdown for the Battlefield 4 release!</string>
+    <string name="pref_release_date">Release Date</string>
+    <string name="pref_background_image">Background Image</string>
+    <string name="pref_font_size">Font Size</string>
+    <string name="pref_font_style">Font Typeface</string>
+    <string name="pref_text_vertical_position">Vertical Position</string>
+    <string name="pref_text_horizontal_position">Horizontal Position</string>
+    <string name="release_date_default">1383260400000</string>
+    <string name="background_image_default">image_0.jpg</string>
+    <string name="font_size_default">medium</string>
+    <string name="font_style_default">Digital.ttf</string>
+    <string name="vertical_position_default">center</string>
+    <string name="horizontal_position_default">center</string>
+    <string name="pref_update_rate">Update Frequency</string>
+    <string name="update_rate_default">1</string>
+    <string name="background_image_loading_msg">Loading Background Image</string>
+    <string name="font_color_default">#FFFFFF</string>
+    <string name="pref_font_color">Font Color</string>
+    <string name="pref_text_style">Text Style</string>
+    <string name="text_style_default">Fill</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="text_pref_category">Text Preferences</string>
+    <string name="position_pref_category">Position Preferences</string>
+    <string name="general_pref_category">General Preferences</string>
+
+</resources>
